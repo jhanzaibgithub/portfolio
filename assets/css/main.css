@@ -1913,8 +1913,12 @@ section,
 .service-item .service-content {
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.bi-check-circle{
+  color: white !important;
+}
 .service-item:hover .service-content {
+
+  height: 170px !important;
   transform: translateY(-5px);
 }
 
