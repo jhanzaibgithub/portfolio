@@ -1,0 +1,2287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Full Stack Portfolio</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: MyResume
+  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+  * Updated: Jun 29 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex flex-column justify-content-center">
+
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i><span>Home</span></a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i><span>About</span></a></li>
+        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i><span>Resume</span></a></li>
+        <li><a href="#portfolio"><i class="bi bi-briefcase navicon"></i><span>Portfolio</span></a></li>
+        <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i><span>Services</span></a></li>
+        <li><a href="#contact"><i class="bi bi-envelope navicon"></i><span>Contact</span></a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section light-background">
+
+      <img src="assets/img/hero-bg.jpg" alt="">
+      <div class="container" data-aos="zoom-out">
+        <div class="row justify-content-center">
+          <div class="col-lg-9">
+            <h2>Jahanzaib Zafar</h2>
+            <p>I'm <span class="typed" data-typed-items="Full-Stack Developer, Freelancer,"></span><span
+                class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+            <div class="social-links">
+              <a href="https://www.linkedin.com/in/jahanzaib-zafar-814ab4296?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                <i class="bi bi-linkedin"></i>
+              </a>
+              <a href="https://github.com/jhanzaibgithub" target="_blank">
+                <i class="bi bi-github"></i>
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2 class="about-main-title">About</h2>
+        <div class="about-description-container">
+          <p class="about-main-description">
+            I'm a passionate <span class="highlight-text">Full-Stack Developer</span> with over <span class="highlight-number">3+ years</span> of experience building and maintaining enterprise-grade web
+            applications, specializing in the <span class="highlight-tech">Laravel PHP framework</span>. I have a comprehensive background in backend development and work 
+            proficiently with relational databases like <span class="highlight-tech">MySQL and PostgreSQL</span>, focusing on performance optimization, security implementation, 
+            and scalable architecture design. On the frontend, I excel with <span class="highlight-tech">HTML5, CSS3, Bootstrap, JavaScript, jQuery, and AJAX</span> to create 
+            responsive and user-friendly interfaces. I've also advanced my skills with <span class="highlight-tech">Vue.js</span> and enjoy building dynamic, interactive features 
+          that enhance user experience. I take pride in writing clean, maintainable code and following modern best practices in both design 
+          and development. I've worked in agile teams and have been involved in all stages of the development process — from gathering 
+          requirements and planning to deployment and ongoing support. I'm detail-oriented, a strong problem solver, and always looking 
+          to improve my skills and stay up-to-date with cutting-edge technologies.
+        </p>
+        </div>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-12 content">
+            <div class="about-content-wrapper" data-aos="fade-up" data-aos-delay="200">
+              <h2 class="about-title animated-text">Full Stack Developer &amp; Laravel Specialist</h2>
+              <p class="fst-italic py-3 about-subtitle animated-subtitle">
+                Experienced in crafting secure, scalable web applications using Laravel and modern frontend tools like
+                Vue.js, Bootstrap, and jQuery. Passionate about clean code, responsive design, and continuous learning.
+              </p>
+
+              <div class="row about-info">
+                <div class="col-lg-6">
+                  <ul class="about-list">
+                    <li class="about-list-item animated-list-item" data-aos="fade-right" data-aos-delay="300">
+                      <i class="bi bi-chevron-right"></i> 
+                      <strong>Birthday:</strong> <span>12 June 2003</span>
+                    </li>
+                    <li class="about-list-item animated-list-item" data-aos="fade-right" data-aos-delay="400">
+                      <i class="bi bi-chevron-right"></i> 
+                      <strong>Phone:</strong> <span>+923067648159</span>
+                    </li>
+                    <li class="about-list-item animated-list-item" data-aos="fade-right" data-aos-delay="500">
+                      <i class="bi bi-chevron-right"></i> 
+                      <strong>City:</strong> <span>Rahim Yar Khan, Punjab, Pakistan</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-6">
+                  <ul class="about-list">
+                    <li class="about-list-item animated-list-item" data-aos="fade-left" data-aos-delay="300">
+                      <i class="bi bi-chevron-right"></i> 
+                      <strong>Degree:</strong> <span>B.Sc. in Computer Science</span>
+                    </li>
+                    <li class="about-list-item animated-list-item" data-aos="fade-left" data-aos-delay="400">
+                      <i class="bi bi-chevron-right"></i> 
+                      <strong>Email:</strong>
+                      <span>jahanzaibryk2020@gmail.com</span>
+                    </li>
+                    <li class="about-list-item animated-list-item" data-aos="fade-left" data-aos-delay="500">
+                      <i class="bi bi-chevron-right"></i> 
+                      <strong>Freelance:</strong> <span>Available</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              
+              <div class="about-description" data-aos="fade-up" data-aos-delay="600">
+                <p class="py-3 animated-paragraph">
+                  I'm a passionate Full Stack Developer specializing in Laravel and frontend technologies like Vue.js,
+                  Bootstrap, and jQuery. With over 3+ years of experience, I focus on building secure, scalable web
+                  applications with clean, maintainable code. Always eager to learn and grow, I'm currently open to
+                  freelance opportunities and excited to take on new challenges that push the boundaries of web development.
+                </p>
+                
+                <div class="about-expertise" data-aos="fade-up" data-aos-delay="700">
+                  <h5 class="expertise-title">Core Expertise</h5>
+                  <div class="expertise-tags">
+                    <span class="expertise-tag animated-tag" data-aos="zoom-in" data-aos-delay="800">Full-Stack Development</span>
+                    <span class="expertise-tag animated-tag" data-aos="zoom-in" data-aos-delay="800">Laravel Development</span>
+                    <span class="expertise-tag animated-tag" data-aos="zoom-in" data-aos-delay="850">API Integration</span>
+                    <span class="expertise-tag animated-tag" data-aos="zoom-in" data-aos-delay="850">Payment Gateway</span>
+                    <span class="expertise-tag animated-tag" data-aos="zoom-in" data-aos-delay="900">Database Design</span>
+                    <span class="expertise-tag animated-tag" data-aos="zoom-in" data-aos-delay="950">Frontend Development</span>
+                    <span class="expertise-tag animated-tag" data-aos="zoom-in" data-aos-delay="1000">Security Implementation</span>
+                    <span class="expertise-tag animated-tag" data-aos="zoom-in" data-aos-delay="1050">Performance Optimization</span>
+                    <span class="expertise-tag animated-tag" data-aos="zoom-in" data-aos-delay="1050">Cloud &DevOps</span>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+
+        <!-- Skills Section -->
+    <section id="skills" class="skills section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2 class="section-main-title">Professional Skills</h2>
+        <div class="section-description-container">
+          <p class="section-main-description">
+            Experienced <span class="highlight-text">Full-Stack Developer</span> specializing in <span class="highlight-tech">Laravel</span>, backend systems, and modern frontend technologies. Skilled in building <span class="highlight-text">secure, scalable, and high-performance</span> applications with expertise in <span class="highlight-tech">API integrations</span>, <span class="highlight-tech">database optimization</span>, and <span class="highlight-tech">cloud deployment</span>.
+          </p>
+        </div>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row skills-content skills-animation">
+
+          <div class="col-lg-6">
+
+            <div class="skill-item" data-aos="fade-right" data-aos-delay="200">
+              <div class="skill-header">
+                <span class="skill-name">HTML</span>
+                <span class="skill-percentage">100%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="100"></div>
+              </div>
+              <div class="skill-details">
+                <span class="skill-tag">Semantic Markup</span>
+                <span class="skill-tag">Accessibility</span>
+                <span class="skill-tag">SEO Optimization</span>
+              </div>
+            </div>
+
+            <div class="skill-item" data-aos="fade-right" data-aos-delay="250">
+              <div class="skill-header">
+                <span class="skill-name">Bootstrap</span>
+                <span class="skill-percentage">100%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="100"></div>
+              </div>
+              <div class="skill-details">
+                <span class="skill-tag">Responsive Design</span>
+                <span class="skill-tag">Component Library</span>
+                <span class="skill-tag">Grid System</span>
+              </div>
+            </div>
+
+            <div class="skill-item" data-aos="fade-right" data-aos-delay="300">
+              <div class="skill-header">
+                <span class="skill-name">CSS</span>
+                <span class="skill-percentage">90%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="90"></div>
+              </div>
+              <div class="skill-details">
+                <span class="skill-tag">Flexbox & Grid</span>
+                <span class="skill-tag">Animations</span>
+                <span class="skill-tag">Custom Properties</span>
+              </div>
+            </div>
+
+            <div class="skill-item" data-aos="fade-right" data-aos-delay="350">
+              <div class="skill-header">
+                <span class="skill-name">JavaScript</span>
+                <span class="skill-percentage">80%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="80"></div>
+              </div>
+              <div class="skill-details">
+                <span class="skill-tag">ES6+ Features</span>
+                <span class="skill-tag">DOM Manipulation</span>
+                <span class="skill-tag">Async Programming</span>
+              </div>
+            </div>
+
+            <div class="skill-item" data-aos="fade-right" data-aos-delay="400">
+              <div class="skill-header">
+                <span class="skill-name">Vue.js</span>
+                <span class="skill-percentage">70%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="70"></div>
+              </div>
+              <div class="skill-details">
+                <span class="skill-tag">Component Architecture</span>
+                <span class="skill-tag">Reactive Data</span>
+                <span class="skill-tag">Vue Router</span>
+              </div>
+            </div>
+
+            <div class="skill-item" data-aos="fade-right" data-aos-delay="450">
+              <div class="skill-header">
+                <span class="skill-name">jQuery</span>
+                <span class="skill-percentage">80%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="80"></div>
+              </div>
+              <div class="skill-details">
+                <span class="skill-tag">DOM Traversal</span>
+                <span class="skill-tag">Event Handling</span>
+                <span class="skill-tag">AJAX Requests</span>
+              </div>
+            </div>
+
+            <div class="skill-item" data-aos="fade-right" data-aos-delay="500">
+              <div class="skill-header">
+                <span class="skill-name">AJAX</span>
+                <span class="skill-percentage">80%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="80"></div>
+              </div>
+              <div class="skill-details">
+                <span class="skill-tag">REST APIs</span>
+                <span class="skill-tag">JSON Handling</span>
+                <span class="skill-tag">Error Handling</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+
+            <div class="skill-item" data-aos="fade-left" data-aos-delay="200">
+              <div class="skill-header">
+                <span class="skill-name">PHP</span>
+                <span class="skill-percentage">80%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="80"></div>
+              </div>
+              <div class="skill-details">
+                <span class="skill-tag">OOP Programming</span>
+                <span class="skill-tag">MVC Pattern</span>
+                <span class="skill-tag">Security Best Practices</span>
+              </div>
+            </div>
+
+            <div class="skill-item" data-aos="fade-left" data-aos-delay="250">
+              <div class="skill-header">
+                <span class="skill-name">Laravel</span>
+                <span class="skill-percentage">80%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="80"></div>
+              </div>
+              <div class="skill-details">
+                <span class="skill-tag">Eloquent ORM</span>
+                <span class="skill-tag">Artisan Commands</span>
+                <span class="skill-tag">Blade Templates</span>
+              </div>
+            </div>
+
+            <div class="skill-item" data-aos="fade-left" data-aos-delay="300">
+              <div class="skill-header">
+                <span class="skill-name">API Development</span>
+                <span class="skill-percentage">100%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="100"></div>
+              </div>
+              <div class="skill-details">
+                <span class="skill-tag">RESTful Design</span>
+                <span class="skill-tag">Authentication</span>
+                <span class="skill-tag">Rate Limiting</span>
+              </div>
+            </div>
+
+            <div class="skill-item" data-aos="fade-left" data-aos-delay="350">
+              <div class="skill-header">
+                <span class="skill-name">Payment Integration</span>
+                <span class="skill-percentage">80%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="80"></div>
+              </div>
+              <div class="skill-details">
+                <span class="skill-tag">Stripe API</span>
+                <span class="skill-tag">PayPal Integration</span>
+                <span class="skill-tag">Fina payment Integration</span>
+                <span class="skill-tag">PCI Compliance</span>
+              </div>
+            </div>
+
+            <div class="skill-item" data-aos="fade-left" data-aos-delay="400">
+              <div class="skill-header">
+                <span class="skill-name">MySQL & PostgreSQL</span>
+                <span class="skill-percentage">90%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="90"></div>
+              </div>
+              <div class="skill-details">
+                <span class="skill-tag">Query Optimization</span>
+                <span class="skill-tag">Indexing</span>
+                <span class="skill-tag">Stored Procedures</span>
+              </div>
+            </div>
+
+            <div class="skill-item" data-aos="fade-left" data-aos-delay="450">
+              <div class="skill-header">
+                <span class="skill-name">Express.js</span>
+                <span class="skill-percentage">50%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="50"></div>
+              </div>
+              <div class="skill-details">
+                <span class="skill-tag">Middleware</span>
+                <span class="skill-tag">Routing</span>
+                <span class="skill-tag">Error Handling</span>
+              </div>
+            </div>
+
+            <div class="skill-item" data-aos="fade-left" data-aos-delay="500">
+              <div class="skill-header">
+                <span class="skill-name">HRM / CMS / CRM</span>
+                <span class="skill-percentage">90%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="90"></div>
+              </div>
+              <div class="skill-details">
+                <span class="skill-tag">User Management</span>
+                <span class="skill-tag">Workflow Automation</span>
+                <span class="skill-tag">Reporting Systems</span>
+              </div>
+            </div>
+
+            <div class="skill-item" data-aos="fade-left" data-aos-delay="550">
+              <div class="skill-header">
+                <span class="skill-name">Pusher</span>
+                <span class="skill-percentage">75%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="75"></div>
+              </div>
+              <div class="skill-details">
+                <span class="skill-tag">Real-time Updates</span>
+                <span class="skill-tag">WebSocket</span>
+                <span class="skill-tag">Event Broadcasting</span>
+              </div>
+            </div>
+
+            <div class="skill-item" data-aos="fade-left" data-aos-delay="600">
+              <div class="skill-header">
+                <span class="skill-name">Swagger API</span>
+                <span class="skill-percentage">85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="85"></div>
+              </div>
+              <div class="skill-details">
+                <span class="skill-tag">API Documentation</span>
+                <span class="skill-tag">Testing Tools</span>
+                <span class="skill-tag">Schema Validation</span>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Skills Section -->
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2 class="section-main-title">Resume</h2>
+        <div class="section-description-container">
+          <p class="section-main-description">
+            <span class="highlight-text">Full Stack Laravel Developer</span> with experience in <span class="highlight-tech">backend</span>, <span class="highlight-tech">frontend</span>, and <span class="highlight-tech">API development</span>. Skilled in delivering
+            <span class="highlight-text">secure, scalable, and optimized</span> solutions for businesses, with hands-on expertise in <span class="highlight-tech">Laravel</span>, <span class="highlight-tech">MERN stack</span>, <span class="highlight-tech">PHP</span>,
+            <span class="highlight-tech">JavaScript</span>, and <span class="highlight-tech">database management</span>. Dedicated to writing <span class="highlight-text">clean, maintainable code</span> and delivering projects on
+            time.
+          </p>
+        </div>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+        <!-- Resume Stats -->
+        <div class="row mb-5" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-12">
+            <div class="resume-stats">
+              <div class="stat-item" data-aos="zoom-in" data-aos-delay="200">
+                <div class="stat-icon">
+                  <i class="bi bi-briefcase"></i>
+                </div>
+                <div class="stat-content">
+                  <h4>3+ Years</h4>
+                  <p>Professional Experience</p>
+                </div>
+              </div>
+              <div class="stat-item" data-aos="zoom-in" data-aos-delay="300">
+                <div class="stat-icon">
+                  <i class="bi bi-code-slash"></i>
+                </div>
+                <div class="stat-content">
+                  <h4>50+</h4>
+                  <p>Projects Completed</p>
+                </div>
+              </div>
+              <div class="stat-item" data-aos="zoom-in" data-aos-delay="400">
+                <div class="stat-icon">
+                  <i class="bi bi-people"></i>
+                </div>
+                <div class="stat-content">
+                  <h4>25+</h4>
+                  <p>Happy Clients</p>
+                </div>
+              </div>
+              <div class="stat-item" data-aos="zoom-in" data-aos-delay="500">
+                <div class="stat-icon">
+                  <i class="bi bi-award"></i>
+                </div>
+                <div class="stat-content">
+                  <h4>5+</h4>
+                  <p>Certifications</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <!-- Left Column -->
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="resume-section">
+              <div class="section-header">
+                <div class="section-icon">
+                  <i class="bi bi-mortarboard"></i>
+                </div>
+                <h3 class="resume-title">Education</h3>
+              </div>
+              
+              <div class="timeline">
+                <div class="timeline-item" data-aos="fade-right" data-aos-delay="200">
+                  <div class="timeline-marker">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-line"></div>
+                  </div>
+                  <div class="timeline-content">
+                    <div class="timeline-header">
+                      <h4>Bachelor of Science in Computer Science</h4>
+                      <span class="timeline-date">2020 - 2024</span>
+                    </div>
+                    <p class="timeline-company"><em>Islamia University, Rahim Yar Khan, Pakistan</em></p>
+                    <p class="timeline-description">Graduated with strong academic performance, completing projects including an AI Spam Detection Tool and a Multi-Branch Shop Management System.</p>
+                    <div class="timeline-tags">
+                      <span class="tag">Computer Science</span>
+                      <span class="tag">AI Projects</span>
+                      <span class="tag">Management Systems</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-right" data-aos-delay="300">
+                  <div class="timeline-marker">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-line"></div>
+                  </div>
+                  <div class="timeline-content">
+                    <div class="timeline-header">
+                      <h4>Web Development Certification</h4>
+                      <span class="timeline-date">2021</span>
+                    </div>
+                    <p class="timeline-company"><em>House of Code</em></p>
+                    <p class="timeline-description">Learned and applied skills in HTML, CSS, Bootstrap, JavaScript, PHP Laravel, and MySQL through hands-on projects.</p>
+                    <div class="timeline-tags">
+                      <span class="tag">Laravel</span>
+                      <span class="tag">Frontend</span>
+                      <span class="tag">MySQL</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-right" data-aos-delay="400">
+                  <div class="timeline-marker">
+                    <div class="timeline-dot"></div>
+                  </div>
+                  <div class="timeline-content">
+                    <div class="timeline-header">
+                      <h4>Cyber Security Certification</h4>
+                      <span class="timeline-date">2022</span>
+                    </div>
+                    <p class="timeline-company"><em>NAVTTIC, Khawaja Fareed University</em></p>
+                    <p class="timeline-description">Specialized in securing web applications, identifying vulnerabilities, and implementing security best practices.</p>
+                    <div class="timeline-tags">
+                      <span class="tag">Security</span>
+                      <span class="tag">Vulnerability Assessment</span>
+                      <span class="tag">Best Practices</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column -->
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="resume-section">
+              <div class="section-header">
+                <div class="section-icon">
+                  <i class="bi bi-briefcase"></i>
+                </div>
+                <h3 class="resume-title">Professional Experience</h3>
+              </div>
+              
+              <div class="timeline">
+                <div class="timeline-item" data-aos="fade-left" data-aos-delay="200">
+                  <div class="timeline-marker">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-line"></div>
+                  </div>
+                  <div class="timeline-content">
+                    <div class="timeline-header">
+                      <h4>Full-Stack Developer</h4>
+                      <span class="timeline-date">2024 - Present</span>
+                    </div>
+                    <p class="timeline-company"><em>Crexed Software House</em></p>
+                    <p class="timeline-description">Developing and maintaining full-stack web applications using Laravel and Vue.js with modern development practices.</p>
+                    <ul class="timeline-achievements">
+                      <li><i class="bi bi-check-circle"></i>Developing and maintaining full-stack web applications using Laravel and Vue.js</li>
+                      <li><i class="bi bi-check-circle"></i>Designing RESTful APIs and integrating them with interactive, responsive frontends</li>
+                      <li><i class="bi bi-check-circle"></i>Integrating third-party APIs, payment gateways, and external services</li>
+                      <li><i class="bi bi-check-circle"></i>Deploying and maintaining applications on cloud hosting platforms with CI/CD pipelines</li>
+                    </ul>
+                    <div class="timeline-tags">
+                      <span class="tag">Laravel</span>
+                      <span class="tag">Vue.js</span>
+                      <span class="tag">APIs</span>
+                      <span class="tag">CI/CD</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-left" data-aos-delay="300">
+                  <div class="timeline-marker">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-line"></div>
+                  </div>
+                  <div class="timeline-content">
+                    <div class="timeline-header">
+                      <h4>Backend Developer</h4>
+                      <span class="timeline-date">2023 - 2024</span>
+                    </div>
+                    <p class="timeline-company"><em>Virtue Netz</em></p>
+                    <p class="timeline-description">Developed large-scale Laravel applications with focus on performance optimization and security.</p>
+                    <ul class="timeline-achievements">
+                      <li><i class="bi bi-check-circle"></i>Developed large-scale Laravel applications from scratch with scalable architecture</li>
+                      <li><i class="bi bi-check-circle"></i>Integrated Stripe and Till Payments gateways ensuring PCI compliance</li>
+                      <li><i class="bi bi-check-circle"></i>Optimized database queries and caching, reducing server load by 40%</li>
+                      <li><i class="bi bi-check-circle"></i>Implemented security audits, bug fixes, and performance enhancements for live projects</li>
+                    </ul>
+                    <div class="timeline-tags">
+                      <span class="tag">Laravel</span>
+                      <span class="tag">Payment Integration</span>
+                      <span class="tag">Performance</span>
+                      <span class="tag">Security</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-left" data-aos-delay="400">
+                  <div class="timeline-marker">
+                    <div class="timeline-dot"></div>
+                  </div>
+                  <div class="timeline-content">
+                    <div class="timeline-header">
+                      <h4>Web Developer</h4>
+                      <span class="timeline-date">2021 - 2023</span>
+                    </div>
+                    <p class="timeline-company"><em>House of Code</em></p>
+                    <p class="timeline-description">Started professional journey developing Laravel-based projects and mentoring junior developers.</p>
+                    <ul class="timeline-achievements">
+                      <li><i class="bi bi-check-circle"></i>Developed and delivered multiple Laravel-based projects for local and international clients</li>
+                      <li><i class="bi bi-check-circle"></i>Built and maintained CRM and HRM systems with secure user authentication</li>
+                      <li><i class="bi bi-check-circle"></i>Designed and implemented REST APIs, integrated third-party services, and optimized backend performance</li>
+                      <li><i class="bi bi-check-circle"></i>Performed code reviews, mentored junior developers, and enforced coding best practices</li>
+                    </ul>
+                    <div class="timeline-tags">
+                      <span class="tag">Laravel</span>
+                      <span class="tag">CRM/HRM</span>
+                      <span class="tag">APIs</span>
+                      <span class="tag">Mentoring</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Resume Section -->
+
+
+   <!-- Services Section -->
+<section id="services" class="services section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2 class="section-main-title">Services</h2>
+    <div class="section-description-container">
+      <p class="section-main-description">
+        I deliver <span class="highlight-text">comprehensive digital solutions</span> tailored to your business needs. From <span class="highlight-tech">concept to deployment</span>, my services are designed to build <span class="highlight-text">robust, scalable, and high-performance</span> web applications that drive <span class="highlight-text">growth and efficiency</span>.
+      </p>
+    </div>
+  </div><!-- End Section Title -->
+
+  <div class="container">
+    <!-- Services Stats -->
+    <div class="row mb-5" data-aos="fade-up" data-aos-delay="100">
+      <div class="col-12">
+        <div class="services-stats">
+          <div class="stat-card" data-aos="zoom-in" data-aos-delay="200">
+            <div class="stat-number" data-count="12">0</div>
+            <div class="stat-label">Services Offered</div>
+          </div>
+          <div class="stat-card" data-aos="zoom-in" data-aos-delay="300">
+            <div class="stat-number" data-count="24">0</div>
+            <div class="stat-label">Hours Support</div>
+          </div>
+          <div class="stat-card" data-aos="zoom-in" data-aos-delay="400">
+            <div class="stat-number" data-count="99">0</div>
+            <div class="stat-label">Client Satisfaction</div>
+          </div>
+          <div class="stat-card" data-aos="zoom-in" data-aos-delay="500">
+            <div class="stat-number" data-count="48">0</div>
+            <div class="stat-label">Hours Delivery</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row gy-4">
+      <!-- Laravel Web Development -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-item item-cyan position-relative">
+          <div class="service-bg-pattern"></div>
+          <div class="icon">
+            <svg width="100" height="100" viewBox="0 0 600 600">
+              <path fill="#f5f5f5"
+                d="M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174">
+              </path>
+            </svg>
+            <i class="bi bi-code-slash"></i>
+          </div>
+          <div class="service-content">
+            <h3>Laravel Development</h3>
+            <p>Enterprise-grade Laravel applications with clean architecture, robust security, and seamless scalability for your business needs.</p>
+            <div class="service-features">
+              <span class="feature-tag">MVC Architecture</span>
+              <span class="feature-tag">Security</span>
+              <span class="feature-tag">Scalability</span>
+            </div>
+            <div class="service-hover-content">
+              <ul>
+                <li><i class="bi bi-check-circle"></i>Custom Laravel Applications</li>
+                <li><i class="bi bi-check-circle"></i>API Development</li>
+                <li><i class="bi bi-check-circle"></i>Database Optimization</li>
+                <li><i class="bi bi-check-circle"></i>Security Implementation</li>
+              </ul>
+            </div>
+          </div>
+          <div class="service-overlay">
+            <a href="#" class="service-link">
+              <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Full Stack Development -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="150">
+        <div class="service-item item-green position-relative">
+          <div class="service-bg-pattern"></div>
+          <div class="icon">
+            <svg width="100" height="100" viewBox="0 0 600 600">
+              <path fill="#f5f5f5"
+                d="M300,582.0697525312426C382.5290701553225,586.8405444964366,449.9789794690241,525.3245884688669,502.5850820975895,461.55621195738473C556.606425686781,396.0723002908107,615.8543463187945,314.28637112970534,586.6730223649479,234.56875336149918C558.9533121215079,158.8439757836574,454.9685369536778,164.00468322053177,381.49747125262974,130.76875717737553C312.15926192815925,99.40240125094834,248.97055460311594,18.661163978235184,179.8680185752513,50.54337015887873C110.5421016452524,82.52863877960104,119.82277516462835,180.83849132639028,109.12597500060166,256.43424936330496C100.08760227029461,320.3096726198365,92.17705696193138,384.0621239912766,124.79988738764834,439.7174275375508C164.83382741302287,508.01625554203684,220.96474134820875,577.5009287672846,300,582.0697525312426">
+              </path>
+            </svg>
+            <i class="bi bi-layers"></i>
+          </div>
+          <div class="service-content">
+            <h3>Full Stack Development</h3>
+            <p>Complete web solutions from database design to frontend implementation, ensuring seamless integration across all layers.</p>
+            <div class="service-features">
+              <span class="feature-tag">Frontend</span>
+              <span class="feature-tag">Backend</span>
+              <span class="feature-tag">Database</span>
+            </div>
+            <div class="service-hover-content">
+              <ul>
+                <li><i class="bi bi-check-circle"></i>End-to-End Development</li>
+                <li><i class="bi bi-check-circle"></i>Database Design</li>
+                <li><i class="bi bi-check-circle"></i>API Integration</li>
+                <li><i class="bi bi-check-circle"></i>Performance Optimization</li>
+              </ul>
+            </div>
+          </div>
+          <div class="service-overlay">
+            <a href="#" class="service-link">
+              <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- API Development -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-item item-orange position-relative">
+          <div class="service-bg-pattern"></div>
+          <div class="icon">
+            <svg width="100" height="100" viewBox="0 0 600 600">
+              <path fill="#f5f5f5"
+                d="M300,541.5067337569781C382.14930387511276,545.0595476570109,479.8736841581634,548.3450877840088,526.4010558755058,480.5488172755941C571.5218469581645,414.80211281144784,517.5187510058486,332.0715597781072,496.52539010469104,255.14436215662573C477.37192572678356,184.95920475031193,473.57363656557914,105.61284051026155,413.0603344069578,65.22779650032875C343.27470386102294,18.654635553484475,251.2091493199835,5.337323636656869,175.0934190732945,40.62881213300186C97.87086631185822,76.43348514350839,51.98124368387456,156.15599469081315,36.44837278890362,239.84606092416172C21.716077023791087,319.22268207091537,43.775223500013084,401.1760424656574,96.891909868211,461.97329694683043C147.22146801428983,519.5804099606455,223.5754009179313,538.201503339737,300,541.5067337569781">
+              </path>
+            </svg>
+            <i class="bi bi-diagram-3"></i>
+          </div>
+          <div class="service-content">
+            <h3>API Development</h3>
+            <p>RESTful API design and implementation with comprehensive documentation, versioning, and security standards.</p>
+            <div class="service-features">
+              <span class="feature-tag">RESTful Design</span>
+              <span class="feature-tag">Documentation</span>
+              <span class="feature-tag">Security</span>
+            </div>
+            <div class="service-hover-content">
+              <ul>
+                <li><i class="bi bi-check-circle"></i>RESTful API Architecture</li>
+                <li><i class="bi bi-check-circle"></i>Swagger Documentation</li>
+                <li><i class="bi bi-check-circle"></i>Authentication & Authorization</li>
+                <li><i class="bi bi-check-circle"></i>Rate Limiting & Caching</li>
+              </ul>
+            </div>
+          </div>
+          <div class="service-overlay">
+            <a href="#" class="service-link">
+              <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Backend Development -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="250">
+        <div class="service-item item-red position-relative">
+          <div class="service-bg-pattern"></div>
+          <div class="icon">
+            <svg width="100" height="100" viewBox="0 0 600 600">
+              <path fill="#f5f5f5"
+                d="M300,503.46388370962813C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,503.46388370962813">
+              </path>
+            </svg>
+            <i class="bi bi-hdd-network"></i>
+          </div>
+          <div class="service-content">
+            <h3>Backend Development</h3>
+            <p>Custom server-side solutions with optimized database architecture, business logic implementation, and API development.</p>
+            <div class="service-features">
+              <span class="feature-tag">Server-side Logic</span>
+              <span class="feature-tag">Database Design</span>
+              <span class="feature-tag">Performance</span>
+            </div>
+            <div class="service-hover-content">
+              <ul>
+                <li><i class="bi bi-check-circle"></i>Custom Backend Solutions</li>
+                <li><i class="bi bi-check-circle"></i>Database Architecture</li>
+                <li><i class="bi bi-check-circle"></i>Business Logic Implementation</li>
+                <li><i class="bi bi-check-circle"></i>Performance Optimization</li>
+              </ul>
+            </div>
+          </div>
+          <div class="service-overlay">
+            <a href="#" class="service-link">
+              <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- E-commerce Solutions -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+        <div class="service-item item-teal position-relative">
+          <div class="service-bg-pattern"></div>
+          <div class="icon">
+            <svg width="100" height="100" viewBox="0 0 600 600">
+              <path fill="#f5f5f5"
+                d="M300,532.3542879108572C369.38199826031484,532.3153073249985,429.10787420159085,491.63046689027357,474.5244479745417,439.17860296908856C522.8885846962883,383.3225815378663,569.1668002868075,314.3205725914397,550.7432151929288,242.7694973846089C532.6665558377875,172.5657663291529,456.2379748765914,142.6223662098291,390.3689995646985,112.34683881706744C326.66090330228417,83.06452184765237,258.84405631176094,53.51806209861945,193.32584062364296,78.48882559362697C121.61183558270385,105.82097193414197,62.805066853699245,167.19869350419734,48.57481801355237,242.6138429142374C34.843463184063346,315.3850353017275,76.69343916112496,383.4422959591041,125.22947124332185,439.3748458443577C170.7312796277747,491.8107796887764,230.57421082200815,532.3932930995766,300,532.3542879108572">
+              </path>
+            </svg>
+            <i class="bi bi-cart-check"></i>
+          </div>
+          <div class="service-content">
+            <h3>E-commerce Solutions</h3>
+            <p>Custom online stores with inventory management, secure checkout, and seamless payment gateway integration.</p>
+            <div class="service-features">
+              <span class="feature-tag">Online Stores</span>
+              <span class="feature-tag">Inventory Management</span>
+              <span class="feature-tag">Payment Gateway</span>
+            </div>
+            <div class="service-hover-content">
+              <ul>
+                <li><i class="bi bi-check-circle"></i>Custom E-commerce Platforms</li>
+                <li><i class="bi bi-check-circle"></i>Inventory Management Systems</li>
+                <li><i class="bi bi-check-circle"></i>Secure Payment Processing</li>
+                <li><i class="bi bi-check-circle"></i>Order Management</li>
+              </ul>
+            </div>
+          </div>
+          <div class="service-overlay">
+            <a href="#" class="service-link">
+              <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Payment Integration -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="350">
+        <div class="service-item item-indigo position-relative">
+          <div class="service-bg-pattern"></div>
+          <div class="icon">
+            <svg width="100" height="100" viewBox="0 0 600 600">
+              <path fill="#f5f5f5"
+                d="M300,566.056C381.946,566.056,457.292,534.849,507.146,477.331C560.39,415.59,590.727,335.305,574.074,259.84C557.873,185.985,496.162,131.977,427.623,93.564C362.014,57.34,287.444,22.832,212.118,50.637C137.119,78.316,100.91,158.905,76.238,235.91C52.566,310.867,43.484,399.453,92.387,464.515C141.324,529.624,220.626,566.056,300,566.056Z">
+              </path>
+            </svg>
+            <i class="bi bi-credit-card-2-front"></i>
+          </div>
+          <div class="service-content">
+            <h3>Payment Integration</h3>
+            <p>Secure payment processing with Stripe, PayPal, and other major gateways, including subscription management.</p>
+            <div class="service-features">
+              <span class="feature-tag">Stripe API</span>
+              <span class="feature-tag">PayPal</span>
+              <span class="feature-tag">Subscriptions</span>
+            </div>
+            <div class="service-hover-content">
+              <ul>
+                <li><i class="bi bi-check-circle"></i>Stripe Payment Gateway</li>
+                <li><i class="bi bi-check-circle"></i>PayPal Integration</li>
+                <li><i class="bi bi-check-circle"></i>Subscription Management</li>
+                <li><i class="bi bi-check-circle"></i>PCI Compliance</li>
+              </ul>
+            </div>
+          </div>
+          <div class="service-overlay">
+            <a href="#" class="service-link">
+              <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cloud & DevOps -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+        <div class="service-item item-blue position-relative">
+          <div class="service-bg-pattern"></div>
+          <div class="icon">
+            <svg width="100" height="100" viewBox="0 0 600 600">
+              <path fill="#f5f5f5"
+                d="M300,541C381.999,541,463.182,523.129,509.042,461.513C555.49,399.104,564.654,315.825,542.805,244.865C520.36,171.393,465.089,110.74,393.536,83.192C324.924,56.965,247.058,72.613,180.416,107.463C110.735,143.993,46.877,196.479,37.503,273.493C28.141,350.428,80.053,424.715,141.731,479.479C200.707,531.646,267.527,541,300,541Z">
+              </path>
+            </svg>
+            <i class="bi bi-cloud-arrow-up"></i>
+          </div>
+          <div class="service-content">
+            <h3>Cloud & DevOps</h3>
+            <p>Cloud infrastructure setup, CI/CD pipelines, containerization, and automated deployment strategies.</p>
+            <div class="service-features">
+              <span class="feature-tag">Cloud Setup</span>
+              <span class="feature-tag">CI/CD</span>
+              <span class="feature-tag">Containerization</span>
+            </div>
+            <div class="service-hover-content">
+              <ul>
+                <li><i class="bi bi-check-circle"></i>Cloud Infrastructure Setup</li>
+                <li><i class="bi bi-check-circle"></i>CI/CD Pipeline Development</li>
+                <li><i class="bi bi-check-circle"></i>Docker Containerization</li>
+                <li><i class="bi bi-check-circle"></i>Automated Deployment</li>
+              </ul>
+            </div>
+          </div>
+          <div class="service-overlay">
+            <a href="#" class="service-link">
+              <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Frontend Development -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="450">
+        <div class="service-item item-pink position-relative">
+          <div class="service-bg-pattern"></div>
+          <div class="icon">
+            <svg width="100" height="100" viewBox="0 0 600 600">
+              <path fill="#f5f5f5"
+                d="M300,532.5C380.882,532.5,463.006,508.923,509.002,444.977C554.998,381.03,564.842,292.352,540.826,219.395C515.471,144.461,456.143,85.083,382.113,57.999C308.083,30.915,222.151,39.259,153.1,80.15C83.051,121.541,30.75,189.494,29.385,271.539C28.026,353.567,79.94,429.633,144.32,483.199C203.964,532.915,267.742,532.5,300,532.5Z">
+              </path>
+            </svg>
+            <i class="bi bi-laptop"></i>
+          </div>
+          <div class="service-content">
+            <h3>Frontend Development</h3>
+            <p>Responsive, accessible interfaces built with modern frameworks like Vue.js, React, and optimized CSS architectures.</p>
+            <div class="service-features">
+              <span class="feature-tag">Vue.js</span>
+              <span class="feature-tag">React</span>
+              <span class="feature-tag">Responsive Design</span>
+            </div>
+            <div class="service-hover-content">
+              <ul>
+                <li><i class="bi bi-check-circle"></i>Vue.js Applications</li>
+                <li><i class="bi bi-check-circle"></i>React Components</li>
+                <li><i class="bi bi-check-circle"></i>Responsive Interfaces</li>
+                <li><i class="bi bi-check-circle"></i>CSS Architecture</li>
+              </ul>
+            </div>
+          </div>
+          <div class="service-overlay">
+            <a href="#" class="service-link">
+              <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Performance Optimization -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+        <div class="service-item item-purple position-relative">
+          <div class="service-bg-pattern"></div>
+          <div class="icon">
+            <svg width="100" height="100" viewBox="0 0 600 600">
+              <path fill="#f5f5f5"
+                d="M300,503C381.769,503,463.538,487.673,508.004,427.684C552.47,367.695,559.629,286.038,538.59,215.364C516.15,140.506,466.734,76.012,397.244,49.027C327.754,22.042,243.892,29.605,174.073,65.344C104.255,101.084,49.064,163.928,38.022,239.876C26.98,315.824,60.643,394.013,118.693,450.058C175.195,504.078,241.989,503,300,503Z">
+              </path>
+            </svg>
+            <i class="bi bi-speedometer2"></i>
+          </div>
+          <div class="service-content">
+            <h3>Performance Optimization</h3>
+            <p>Application tuning including database optimization, caching strategies, and frontend asset optimization.</p>
+            <div class="service-features">
+              <span class="feature-tag">Database Tuning</span>
+              <span class="feature-tag">Caching</span>
+              <span class="feature-tag">Asset Optimization</span>
+            </div>
+            <div class="service-hover-content">
+              <ul>
+                <li><i class="bi bi-check-circle"></i>Database Query Optimization</li>
+                <li><i class="bi bi-check-circle"></i>Caching Strategies</li>
+                <li><i class="bi bi-check-circle"></i>Frontend Asset Optimization</li>
+                <li><i class="bi bi-check-circle"></i>Performance Monitoring</li>
+              </ul>
+            </div>
+          </div>
+          <div class="service-overlay">
+            <a href="#" class="service-link">
+              <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Security Services -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="550">
+        <div class="service-item item-yellow position-relative">
+          <div class="service-bg-pattern"></div>
+          <div class="icon">
+            <svg width="100" height="100" viewBox="0 0 600 600">
+              <path fill="#f5f5f5"
+                d="M300,566C380.482,566,463.261,534.871,507.995,469.693C555.071,401.982,561.75,311.79,529.268,239.663C496.786,167.536,427.144,116.229,351.487,94.179C275.831,72.129,192.309,82.435,132.252,130.486C70.199,180.247,33.084,258.487,37.552,339.448C42.02,420.409,93.963,500.318,168.528,541.92C224.278,573.872,273.539,566,300,566Z">
+              </path>
+            </svg>
+            <i class="bi bi-shield-lock"></i>
+          </div>
+          <div class="service-content">
+            <h3>Security Services</h3>
+            <p>Comprehensive security audits, vulnerability assessments, and implementation of security best practices.</p>
+            <div class="service-features">
+              <span class="feature-tag">Security Audits</span>
+              <span class="feature-tag">Vulnerability Assessment</span>
+              <span class="feature-tag">Best Practices</span>
+            </div>
+            <div class="service-hover-content">
+              <ul>
+                <li><i class="bi bi-check-circle"></i>Security Audits & Reviews</li>
+                <li><i class="bi bi-check-circle"></i>Vulnerability Assessments</li>
+                <li><i class="bi bi-check-circle"></i>Security Best Practices</li>
+                <li><i class="bi bi-check-circle"></i>Compliance Implementation</li>
+              </ul>
+            </div>
+          </div>
+          <div class="service-overlay">
+            <a href="#" class="service-link">
+              <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Database Optimization -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+        <div class="service-item item-orange position-relative">
+          <div class="service-bg-pattern"></div>
+          <div class="icon">
+            <svg width="100" height="100" viewBox="0 0 600 600">
+              <path fill="#f5f5f5"
+                d="M300,521C380.291,521,463.273,494.449,511.278,429.336C560.347,363.223,574.374,272.548,546.26,197.658C518.145,122.768,447.89,63.663,368.239,44.234C288.589,24.806,199.543,46.054,136.067,96.095C70.522,147.501,30.616,224.927,33.746,305.346C36.875,385.765,86.041,465.471,154.661,505.782C211.904,540.222,266.844,521,300,521Z">
+              </path>
+            </svg>
+            <i class="bi bi-database-gear"></i>
+          </div>
+          <div class="service-content">
+            <h3>Database Optimization</h3>
+            <p>Query optimization, indexing strategies, and database architecture design for high-performance applications.</p>
+            <div class="service-features">
+              <span class="feature-tag">Query Optimization</span>
+              <span class="feature-tag">Indexing</span>
+              <span class="feature-tag">Architecture Design</span>
+            </div>
+            <div class="service-hover-content">
+              <ul>
+                <li><i class="bi bi-check-circle"></i>SQL Query Optimization</li>
+                <li><i class="bi bi-check-circle"></i>Database Indexing Strategies</li>
+                <li><i class="bi bi-check-circle"></i>Database Architecture Design</li>
+                <li><i class="bi bi-check-circle"></i>Performance Monitoring</li>
+              </ul>
+            </div>
+          </div>
+          <div class="service-overlay">
+            <a href="#" class="service-link">
+              <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Custom Application Development -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="650">
+        <div class="service-item item-green position-relative">
+          <div class="service-bg-pattern"></div>
+          <div class="icon">
+            <svg width="100" height="100" viewBox="0 0 600 600">
+              <path fill="#f5f5f5"
+                d="M300,541C381.997,541,463.994,519.994,509.5,458.5C555.006,397.006,564.012,306.012,542.007,235.518C520.003,165.023,467.988,104.029,399.483,78.031C330.977,52.033,246.973,61.031,177.468,97.028C107.963,133.025,51.959,196.021,38.955,273.516C25.951,351.012,55.946,440.006,118.441,487.503C177.936,531.999,240.932,541,300,541Z">
+              </path>
+            </svg>
+            <i class="bi bi-window-stack"></i>
+          </div>
+          <div class="service-content">
+            <h3>Custom Application Development</h3>
+            <p>Tailored software solutions designed to streamline your business operations and workflows.</p>
+            <div class="service-features">
+              <span class="feature-tag">Custom Solutions</span>
+              <span class="feature-tag">Business Workflows</span>
+              <span class="feature-tag">Process Automation</span>
+            </div>
+            <div class="service-hover-content">
+              <ul>
+                <li><i class="bi bi-check-circle"></i>Custom Software Solutions</li>
+                <li><i class="bi bi-check-circle"></i>Business Process Automation</li>
+                <li><i class="bi bi-check-circle"></i>Workflow Management</li>
+                <li><i class="bi bi-check-circle"></i>Integration Services</li>
+              </ul>
+            </div>
+          </div>
+          <div class="service-overlay">
+            <a href="#" class="service-link">
+              <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section><!-- /Services Section -->
+
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2 class="section-main-title">Featured Projects</h2>
+        <div class="section-description-container">
+          <p class="section-main-description">
+            Explore my portfolio of <span class="highlight-text">innovative web applications</span>, showcasing expertise in <span class="highlight-tech">Laravel</span>, <span class="highlight-tech">Vue.js</span>, and <span class="highlight-tech">modern full-stack development</span>. Each project demonstrates <span class="highlight-text">clean architecture</span>, <span class="highlight-text">security best practices</span>, and <span class="highlight-text">exceptional user experience</span>.
+          </p>
+        </div>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <!-- Grid -->
+        <div class="row g-4" id="portfolio-grid">
+
+          <!-- Project 1: BorrowMate -->
+          <div class="col-lg-4 col-md-6 portfolio-item laravel fullstack" data-aos="fade-up" data-aos-delay="100">
+            <div class="card h-100 shadow-sm project-card position-relative overflow-hidden">
+              <div class="project-image-container">
+                <img src="portfolio project/borrowmate/1.png" class="card-img-top" alt="BorrowMate - Loan Management System">
+                <div class="project-overlay position-absolute w-100 h-100 top-0 start-0 d-flex align-items-center justify-content-center">
+                  <div class="text-center">
+                    <i class="bi bi-cash-coin fs-1 text-white mb-2"></i>
+                    <p class="text-white mb-0">Loan Management</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">BorrowMate - Loan Management System</h5>
+                <p class="card-text small text-muted">Comprehensive loan management platform with borrower tracking, payment processing, and automated notifications.</p>
+                <div class="mb-3">
+                  <span class="badge bg-primary me-1">Laravel 9</span>
+                  <span class="badge bg-info text-dark me-1">Vue.js 3</span>
+                  <span class="badge bg-success me-1">MySQL</span>
+                  <span class="badge bg-warning text-dark me-1">Stripe API</span>
+                </div>
+                <div class="d-flex gap-2 flex-wrap">
+                  <a href="#" class="btn btn-sm btn-outline-primary" data-bs-toggle="modal" data-bs-target="#projectModal-1">
+                    <i class="bi bi-eye me-1"></i>View Details
+                  </a>
+                  <a href="https://github.com/jhanzaibgithub/borrowmate" target="_blank" class="btn btn-sm btn-outline-dark">
+                    <i class="bi bi-github me-1"></i>GitHub
+                  </a>
+                  <a href="#" target="_blank" class="btn btn-sm btn-primary">
+                    <i class="bi bi-box-arrow-up-right me-1"></i>Live Demo
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2: IsLegit -->
+          <div class="col-lg-4 col-md-6 portfolio-item laravel fullstack" data-aos="fade-up" data-aos-delay="150">
+            <div class="card h-100 shadow-sm project-card position-relative overflow-hidden">
+              <div class="project-image-container">
+                <img src="portfolio project/islegit/1.png" class="card-img-top" alt="IsLegit - Verification Platform">
+                <div class="project-overlay position-absolute w-100 h-100 top-0 start-0 d-flex align-items-center justify-content-center">
+                  <div class="text-center">
+                    <i class="bi bi-shield-check fs-1 text-white mb-2"></i>
+                    <p class="text-white mb-0">Verification Platform</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">IsLegit - Verification Platform</h5>
+                <p class="card-text small text-muted">Advanced verification and authentication system with document validation, user verification, and security features.</p>
+                <div class="mb-3">
+                  <span class="badge bg-primary me-1">Laravel 9</span>
+                  <span class="badge bg-success me-1">Vue.js</span>
+                  <span class="badge bg-info text-dark me-1">MySQL</span>
+                  <span class="badge bg-warning text-dark me-1">API Integration</span>
+                </div>
+                <div class="d-flex gap-2 flex-wrap">
+                  <a href="#" class="btn btn-sm btn-outline-primary" data-bs-toggle="modal" data-bs-target="#projectModal-2">
+                    <i class="bi bi-eye me-1"></i>View Details
+                  </a>
+                  <a href="https://github.com/jhanzaibgithub/islegit" target="_blank" class="btn btn-sm btn-outline-dark">
+                    <i class="bi bi-github me-1"></i>GitHub
+                  </a>
+                  <a href="#" target="_blank" class="btn btn-sm btn-primary">
+                    <i class="bi bi-box-arrow-up-right me-1"></i>Live Demo
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3: Domain Name Generator -->
+          <div class="col-lg-4 col-md-6 portfolio-item frontend" data-aos="fade-up" data-aos-delay="200">
+            <div class="card h-100 shadow-sm project-card position-relative overflow-hidden">
+              <div class="project-image-container">
+                <img src="portfolio project/domain name generater/1.png" class="card-img-top" alt="Domain Name Generator">
+                <div class="project-overlay position-absolute w-100 h-100 top-0 start-0 d-flex align-items-center justify-content-center">
+                  <div class="text-center">
+                    <i class="bi bi-globe fs-1 text-white mb-2"></i>
+                    <p class="text-white mb-0">Domain Generator</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Domain Name Generator</h5>
+                <p class="card-text small text-muted">Smart domain name generator with availability checking, suggestions, and domain registration integration.</p>
+                <div class="mb-3">
+                  <span class="badge bg-primary me-1">Laravel</span>
+                  <span class="badge bg-success me-1">Vue.js</span>
+                  <span class="badge bg-info text-dark me-1">API Integration</span>
+                  <span class="badge bg-warning text-dark me-1">Bootstrap</span>
+                </div>
+                <div class="d-flex gap-2 flex-wrap">
+                  <a href="#" class="btn btn-sm btn-outline-primary" data-bs-toggle="modal" data-bs-target="#projectModal-3">
+                    <i class="bi bi-eye me-1"></i>View Details
+                  </a>
+                  <a href="https://github.com/jhanzaibgithub/domain-generator" target="_blank" class="btn btn-sm btn-outline-dark">
+                    <i class="bi bi-github me-1"></i>GitHub
+                  </a>
+                  <a href="#" target="_blank" class="btn btn-sm btn-primary">
+                    <i class="bi bi-box-arrow-up-right me-1"></i>Live Demo
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4: Gifted Taxi -->
+          <div class="col-lg-4 col-md-6 portfolio-item laravel fullstack" data-aos="fade-up" data-aos-delay="250">
+            <div class="card h-100 shadow-sm project-card position-relative overflow-hidden">
+              <div class="project-image-container">
+                <img src="portfolio project/gifted texi/1.png" class="card-img-top" alt="Gifted Taxi - Ride Sharing App">
+                <div class="project-overlay position-absolute w-100 h-100 top-0 start-0 d-flex align-items-center justify-content-center">
+                  <div class="text-center">
+                    <i class="bi bi-car-front fs-1 text-white mb-2"></i>
+                    <p class="text-white mb-0">Ride Sharing</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Gifted Taxi - Ride Sharing App</h5>
+                <p class="card-text small text-muted">Complete ride-sharing platform with driver-passenger matching, real-time tracking, and payment integration.</p>
+                <div class="mb-3">
+                  <span class="badge bg-primary me-1">Laravel</span>
+                  <span class="badge bg-success me-1">Vue.js</span>
+                  <span class="badge bg-info text-dark me-1">Real-time</span>
+                  <span class="badge bg-warning text-dark me-1">Payment API</span>
+                </div>
+                <div class="d-flex gap-2 flex-wrap">
+                  <a href="#" class="btn btn-sm btn-outline-primary" data-bs-toggle="modal" data-bs-target="#projectModal-4">
+                    <i class="bi bi-eye me-1"></i>View Details
+                  </a>
+                  <a href="https://github.com/jhanzaibgithub/gifted-taxi" target="_blank" class="btn btn-sm btn-outline-dark">
+                    <i class="bi bi-github me-1"></i>GitHub
+                  </a>
+                  <a href="#" target="_blank" class="btn btn-sm btn-primary">
+                    <i class="bi bi-box-arrow-up-right me-1"></i>Live Demo
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 5: Hosting Panel -->
+          <div class="col-lg-4 col-md-6 portfolio-item laravel fullstack" data-aos="fade-up" data-aos-delay="300">
+            <div class="card h-100 shadow-sm project-card position-relative overflow-hidden">
+              <div class="project-image-container">
+                <img src="portfolio project/hosting panel/1.png" class="card-img-top" alt="Hosting Panel - Web Hosting Management">
+                <div class="project-overlay position-absolute w-100 h-100 top-0 start-0 d-flex align-items-center justify-content-center">
+                  <div class="text-center">
+                    <i class="bi bi-server fs-1 text-white mb-2"></i>
+                    <p class="text-white mb-0">Hosting Management</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Hosting Panel - Web Hosting Management</h5>
+                <p class="card-text small text-muted">Comprehensive web hosting management panel with server monitoring, domain management, and billing integration.</p>
+                <div class="mb-3">
+                  <span class="badge bg-primary me-1">Laravel</span>
+                  <span class="badge bg-success me-1">Vue.js</span>
+                  <span class="badge bg-info text-dark me-1">Server API</span>
+                  <span class="badge bg-warning text-dark me-1">Billing System</span>
+                </div>
+                <div class="d-flex gap-2 flex-wrap">
+                  <a href="#" class="btn btn-sm btn-outline-primary" data-bs-toggle="modal" data-bs-target="#projectModal-5">
+                    <i class="bi bi-eye me-1"></i>View Details
+                  </a>
+                  <a href="https://github.com/jhanzaibgithub/hosting-panel" target="_blank" class="btn btn-sm btn-outline-dark">
+                    <i class="bi bi-github me-1"></i>GitHub
+                  </a>
+                  <a href="#" target="_blank" class="btn btn-sm btn-primary">
+                    <i class="bi bi-box-arrow-up-right me-1"></i>Live Demo
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div><!-- end grid -->
+
+      </div>
+
+      <!-- Project Modals -->
+      <!-- Modal 1: BorrowMate -->
+      <div class="modal fade" id="projectModal-1" tabindex="-1" aria-labelledby="projectModalLabel1" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="projectModalLabel1">BorrowMate - Loan Management System</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-lg-7">
+                  <!-- Image Gallery -->
+                  <div class="swiper mySwiper-project1">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="project-image-wrapper">
+                          <img src="portfolio project/borrowmate/1.png" class="img-fluid rounded project-modal-image" alt="Dashboard Overview">
+                        <div class="swiper-slide-caption">Dashboard Overview</div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="project-image-wrapper">
+                          <img src="portfolio project/borrowmate/2.png" class="img-fluid rounded project-modal-image" alt="Loan Application">
+                        <div class="swiper-slide-caption">Loan Application Form</div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="project-image-wrapper">
+                          <img src="portfolio project/borrowmate/3.png" class="img-fluid rounded project-modal-image" alt="Borrower Management">
+                        <div class="swiper-slide-caption">Borrower Management</div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="project-image-wrapper">
+                          <img src="portfolio project/borrowmate/4.png" class="img-fluid rounded project-modal-image" alt="Payment Tracking">
+                        <div class="swiper-slide-caption">Payment Tracking</div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="project-image-wrapper">
+                          <img src="portfolio project/borrowmate/5.png" class="img-fluid rounded project-modal-image" alt="Reports & Analytics">
+                        <div class="swiper-slide-caption">Reports & Analytics</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                  </div>
+                </div>
+                <div class="col-lg-5">
+                  <div class="project-details">
+                    <h6 class="text-primary mb-3">Project Overview</h6>
+                    <p class="mb-4">Comprehensive loan management platform designed for financial institutions and lending companies. Features borrower tracking, automated payment processing, and detailed reporting system.</p>
+
+                    <h6 class="text-primary mb-3">Key Features</h6>
+                    <ul class="list-unstyled mb-4">
+                      <li><i class="bi bi-check-circle-fill text-success me-2"></i>Automated loan application processing</li>
+                      <li><i class="bi bi-check-circle-fill text-success me-2"></i>Real-time payment tracking and notifications</li>
+                      <li><i class="bi bi-check-circle-fill text-success me-2"></i>Comprehensive borrower profile management</li>
+                      <li><i class="bi bi-check-circle-fill text-success me-2"></i>Advanced reporting and analytics dashboard</li>
+                      <li><i class="bi bi-check-circle-fill text-success me-2"></i>Stripe payment gateway integration</li>
+                      <li><i class="bi bi-check-circle-fill text-success me-2"></i>Automated email notifications and reminders</li>
+                    </ul>
+
+                    <h6 class="text-primary mb-3">Technologies Used</h6>
+                    <div class="mb-4">
+                      <span class="badge bg-primary me-2 mb-2">Laravel 9</span>
+                      <span class="badge bg-info text-dark me-2 mb-2">Vue.js 3</span>
+                      <span class="badge bg-success me-2 mb-2">MySQL</span>
+                      <span class="badge bg-warning text-dark me-2 mb-2">Stripe API</span>
+                      <span class="badge bg-secondary me-2 mb-2">Bootstrap 5</span>
+                      <span class="badge bg-dark me-2 mb-2">Email Services</span>
+                    </div>
+
+                    <h6 class="text-primary mb-3">Challenges & Solutions</h6>
+                    <p class="mb-4">Implemented secure payment processing with Stripe integration and automated loan calculations. Used Vue.js for dynamic form validation and real-time updates to enhance user experience.</p>
+
+                    <div class="d-flex gap-2 flex-wrap">
+                      <a href="#" class="btn btn-primary" target="_blank">
+                        <i class="bi bi-box-arrow-up-right me-1"></i>Live Demo
+                      </a>
+                      <a href="https://github.com/jhanzaibgithub/borrowmate" target="_blank" class="btn btn-outline-dark">
+                        <i class="bi bi-github me-1"></i>View Code
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal 2: IsLegit -->
+      <div class="modal fade" id="projectModal-2" tabindex="-1" aria-labelledby="projectModalLabel2" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="projectModalLabel2">IsLegit - Verification Platform</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-lg-7">
+                  <div class="swiper mySwiper-project2">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="project-image-wrapper">
+                          <img src="portfolio project/islegit/1.png" class="img-fluid rounded project-modal-image" alt="Verification Dashboard">
+                        <div class="swiper-slide-caption">Verification Dashboard</div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="project-image-wrapper">
+                          <img src="portfolio project/islegit/2.png" class="img-fluid rounded project-modal-image" alt="Document Upload">
+                        <div class="swiper-slide-caption">Document Upload System</div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="project-image-wrapper">
+                          <img src="portfolio project/islegit/3.png" class="img-fluid rounded project-modal-image" alt="User Verification">
+                        <div class="swiper-slide-caption">User Verification Process</div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="project-image-wrapper">
+                          <img src="portfolio project/islegit/4.png" class="img-fluid rounded project-modal-image" alt="Admin Panel">
+                        <div class="swiper-slide-caption">Admin Management Panel</div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="project-image-wrapper">
+                          <img src="portfolio project/islegit/5.png" class="img-fluid rounded project-modal-image" alt="Security Features">
+                        <div class="swiper-slide-caption">Security & Compliance</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                  </div>
+                </div>
+                <div class="col-lg-5">
+                  <div class="project-details">
+                    <h6 class="text-primary mb-3">Project Overview</h6>
+                    <p class="mb-4">Advanced verification and authentication platform designed for businesses requiring secure user verification. Features document validation, identity verification, and compliance management.</p>
+
+                    <h6 class="text-primary mb-3">Key Features</h6>
+                    <ul class="list-unstyled mb-4">
+                      <li><i class="bi bi-check-circle-fill text-success me-2"></i>Document upload and validation system</li>
+                      <li><i class="bi bi-check-circle-fill text-success me-2"></i>Identity verification with multiple checks</li>
+                      <li><i class="bi bi-check-circle-fill text-success me-2"></i>Automated compliance monitoring</li>
+                      <li><i class="bi bi-check-circle-fill text-success me-2"></i>Secure file storage and encryption</li>
+                      <li><i class="bi bi-check-circle-fill text-success me-2"></i>Real-time verification status updates</li>
+                      <li><i class="bi bi-check-circle-fill text-success me-2"></i>Admin dashboard for verification management</li>
+                    </ul>
+
+                    <h6 class="text-primary mb-3">Technologies Used</h6>
+                    <div class="mb-4">
+                      <span class="badge bg-primary me-2 mb-2">Laravel 9</span>
+                      <span class="badge bg-success me-2 mb-2">Vue.js</span>
+                      <span class="badge bg-info text-dark me-2 mb-2">MySQL</span>
+                      <span class="badge bg-warning text-dark me-2 mb-2">API Integration</span>
+                      <span class="badge bg-secondary me-2 mb-2">File Encryption</span>
+                    </div>
+
+                    <div class="d-flex gap-2 flex-wrap">
+                      <a href="#" class="btn btn-primary" target="_blank">
+                        <i class="bi bi-box-arrow-up-right me-1"></i>Live Demo
+                      </a>
+                      <a href="https://github.com/jhanzaibgithub/islegit" target="_blank" class="btn btn-outline-dark">
+                        <i class="bi bi-github me-1"></i>View Code
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal 3: Domain Name Generator -->
+      <div class="modal fade" id="projectModal-3" tabindex="-1" aria-labelledby="projectModalLabel3" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="projectModalLabel3">Domain Name Generator</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-lg-7">
+                  <div class="swiper mySwiper-project3">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="project-image-wrapper">
+                          <img src="portfolio project/domain name generater/1.png" class="img-fluid rounded project-modal-image" alt="Domain Generator Interface">
+                        <div class="swiper-slide-caption">Domain Generator Interface</div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="project-image-wrapper">
+                          <img src="portfolio project/domain name generater/2.png" class="img-fluid rounded project-modal-image" alt="Domain Suggestions">
+                        <div class="swiper-slide-caption">Smart Domain Suggestions</div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="project-image-wrapper">
+                          <img src="portfolio project/domain name generater/3.png" class="img-fluid rounded project-modal-image" alt="Availability Check">
+                        <div class="swiper-slide-caption">Real-time Availability Check</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                  </div>
+                </div>
+                <div class="col-lg-5">
+                  <div class="project-details">
+                    <h6 class="text-primary mb-3">Project Overview</h6>
+                    <p class="mb-4">Smart domain name generator with real-time availability checking, intelligent suggestions, and domain registration integration for businesses and individuals.</p>
+
+                    <h6 class="text-primary mb-3">Key Features</h6>
+                    <ul class="list-unstyled mb-4">
+                      <li><i class="bi bi-check-circle-fill text-success me-2"></i>AI-powered domain name suggestions</li>
+                      <li><i class="bi bi-check-circle-fill text-success me-2"></i>Real-time domain availability checking</li>
+                      <li><i class="bi bi-check-circle-fill text-success me-2"></i>Multiple TLD support (.com, .net, .org, etc.)</li>
+                      <li><i class="bi bi-check-circle-fill text-success me-2"></i>Domain registration integration</li>
+                      <li><i class="bi bi-check-circle-fill text-success me-2"></i>Price comparison across registrars</li>
+                      <li><i class="bi bi-check-circle-fill text-success me-2"></i>Favorites and wishlist functionality</li>
+                    </ul>
+
+                    <h6 class="text-primary mb-3">Technologies Used</h6>
+                    <div class="mb-4">
+                      <span class="badge bg-primary me-2 mb-2">Laravel</span>
+                      <span class="badge bg-success me-2 mb-2">Vue.js</span>
+                      <span class="badge bg-info text-dark me-2 mb-2">API Integration</span>
+                      <span class="badge bg-warning text-dark me-2 mb-2">Bootstrap</span>
+                      <span class="badge bg-secondary me-2 mb-2">Domain APIs</span>
+                    </div>
+
+                    <div class="d-flex gap-2 flex-wrap">
+                      <a href="#" class="btn btn-primary" target="_blank">
+                        <i class="bi bi-box-arrow-up-right me-1"></i>Live Demo
+                      </a>
+                      <a href="https://github.com/jhanzaibgithub/domain-generator" target="_blank" class="btn btn-outline-dark">
+                        <i class="bi bi-github me-1"></i>View Code
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal 4: Gifted Taxi -->
+      <div class="modal fade" id="projectModal-4" tabindex="-1" aria-labelledby="projectModalLabel4" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="projectModalLabel4">Gifted Taxi - Ride Sharing App</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-lg-7">
+                  <div class="swiper mySwiper-project4">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="project-image-wrapper">
+                          <img src="portfolio project/gifted texi/1.png" class="img-fluid rounded project-modal-image" alt="Ride Booking Interface">
+                        <div class="swiper-slide-caption">Ride Booking Interface</div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="project-image-wrapper">
+                          <img src="portfolio project/gifted texi/2.png" class="img-fluid rounded project-modal-image" alt="Driver Matching">
+                        <div class="swiper-slide-caption">Driver Matching System</div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="project-image-wrapper">
+                          <img src="portfolio project/gifted texi/3.png" class="img-fluid rounded project-modal-image" alt="Real-time Tracking">
+                        <div class="swiper-slide-caption">Real-time GPS Tracking</div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="project-image-wrapper">
+                          <img src="portfolio project/gifted texi/4.png" class="img-fluid rounded project-modal-image" alt="Payment System">
+                        <div class="swiper-slide-caption">Payment & Billing</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                  </div>
+                </div>
+                <div class="col-lg-5">
+                  <div class="project-details">
+                    <h6 class="text-primary mb-3">Project Overview</h6>
+                    <p class="mb-4">Complete ride-sharing platform connecting passengers with drivers through real-time matching, GPS tracking, and secure payment processing.</p>
+
+                    <h6 class="text-primary mb-3">Key Features</h6>
+                    <ul class="list-unstyled mb-4">
+                      <li><i class="bi bi-check-circle-fill text-success me-2"></i>Real-time driver-passenger matching</li>
+                      <li><i class="bi bi-check-circle-fill text-success me-2"></i>GPS tracking and route optimization</li>
+                      <li><i class="bi bi-check-circle-fill text-success me-2"></i>Secure payment processing</li>
+                      <li><i class="bi bi-check-circle-fill text-success me-2"></i>Rating and review system</li>
+                      <li><i class="bi bi-check-circle-fill text-success me-2"></i>Driver earnings management</li>
+                      <li><i class="bi bi-check-circle-fill text-success me-2"></i>Admin dashboard for monitoring</li>
+                    </ul>
+
+                    <h6 class="text-primary mb-3">Technologies Used</h6>
+                    <div class="mb-4">
+                      <span class="badge bg-primary me-2 mb-2">Laravel</span>
+                      <span class="badge bg-success me-2 mb-2">Vue.js</span>
+                      <span class="badge bg-info text-dark me-2 mb-2">Real-time</span>
+                      <span class="badge bg-warning text-dark me-2 mb-2">Payment API</span>
+                      <span class="badge bg-secondary me-2 mb-2">GPS Integration</span>
+                    </div>
+
+                    <div class="d-flex gap-2 flex-wrap">
+                      <a href="#" class="btn btn-primary" target="_blank">
+                        <i class="bi bi-box-arrow-up-right me-1"></i>Live Demo
+                      </a>
+                      <a href="https://github.com/jhanzaibgithub/gifted-taxi" target="_blank" class="btn btn-outline-dark">
+                        <i class="bi bi-github me-1"></i>View Code
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal 5: Hosting Panel -->
+      <div class="modal fade" id="projectModal-5" tabindex="-1" aria-labelledby="projectModalLabel5" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="projectModalLabel5">Hosting Panel - Web Hosting Management</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-lg-7">
+                  <div class="swiper mySwiper-project5">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="project-image-wrapper">
+                          <img src="portfolio project/hosting panel/1.png" class="img-fluid rounded project-modal-image" alt="Hosting Dashboard">
+                        <div class="swiper-slide-caption">Hosting Dashboard</div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="project-image-wrapper">
+                          <img src="portfolio project/hosting panel/2.png" class="img-fluid rounded project-modal-image" alt="Server Management">
+                        <div class="swiper-slide-caption">Server Management</div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="project-image-wrapper">
+                          <img src="portfolio project/hosting panel/3.png" class="img-fluid rounded project-modal-image" alt="Domain Management">
+                        <div class="swiper-slide-caption">Domain Management</div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="project-image-wrapper">
+                          <img src="portfolio project/hosting panel/4.png" class="img-fluid rounded project-modal-image" alt="Billing System">
+                        <div class="swiper-slide-caption">Billing & Payments</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                  </div>
+                </div>
+                <div class="col-lg-5">
+                  <div class="project-details">
+                    <h6 class="text-primary mb-3">Project Overview</h6>
+                    <p class="mb-4">Comprehensive web hosting management panel with server monitoring, domain management, billing integration, and customer support features.</p>
+
+                    <h6 class="text-primary mb-3">Key Features</h6>
+                    <ul class="list-unstyled mb-4">
+                      <li><i class="bi bi-check-circle-fill text-success me-2"></i>Server monitoring and health checks</li>
+                      <li><i class="bi bi-check-circle-fill text-success me-2"></i>Domain registration and management</li>
+                      <li><i class="bi bi-check-circle-fill text-success me-2"></i>Automated billing and invoicing</li>
+                      <li><i class="bi bi-check-circle-fill text-success me-2"></i>Customer support ticket system</li>
+                      <li><i class="bi bi-check-circle-fill text-success me-2"></i>Resource usage analytics</li>
+                      <li><i class="bi bi-check-circle-fill text-success me-2"></i>Backup and restore functionality</li>
+                    </ul>
+
+                    <h6 class="text-primary mb-3">Technologies Used</h6>
+                    <div class="mb-4">
+                      <span class="badge bg-primary me-2 mb-2">Laravel</span>
+                      <span class="badge bg-success me-2 mb-2">Vue.js</span>
+                      <span class="badge bg-info text-dark me-2 mb-2">Server API</span>
+                      <span class="badge bg-warning text-dark me-2 mb-2">Billing System</span>
+                      <span class="badge bg-secondary me-2 mb-2">Monitoring Tools</span>
+                    </div>
+
+                    <div class="d-flex gap-2 flex-wrap">
+                      <a href="#" class="btn btn-primary" target="_blank">
+                        <i class="bi bi-box-arrow-up-right me-1"></i>Live Demo
+                      </a>
+                      <a href="https://github.com/jhanzaibgithub/hosting-panel" target="_blank" class="btn btn-outline-dark">
+                        <i class="bi bi-github me-1"></i>View Code
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Enhanced Portfolio JavaScript -->
+      <script>
+        (function () {
+          'use strict';
+          
+          // Portfolio interactions
+          const items = Array.from(document.querySelectorAll('#portfolio-grid .portfolio-item'));
+
+          // Show all projects by default with staggered animation
+          function initializeProjects() {
+            items.forEach((el, idx) => {
+                el.classList.remove('filtered-out');
+              el.setAttribute('data-aos-delay', 100 + idx * 100);
+            });
+            
+            // Refresh AOS for smooth animations
+            if (window.AOS) { 
+              AOS.refresh(); 
+            }
+          }
+
+          // Initialize Swiper for project modals
+          function initProjectSwipers() {
+            if (window.Swiper) {
+              // Project 1 Swiper
+              new Swiper('.mySwiper-project1', {
+                loop: true,
+                autoplay: {
+                  delay: 4000,
+                  disableOnInteraction: false,
+                },
+                pagination: { 
+                  el: '.mySwiper-project1 .swiper-pagination', 
+                  clickable: true,
+                  dynamicBullets: true
+                },
+                navigation: { 
+                  nextEl: '.mySwiper-project1 .swiper-button-next', 
+                  prevEl: '.mySwiper-project1 .swiper-button-prev' 
+                },
+                slidesPerView: 1,
+                effect: 'fade',
+                fadeEffect: {
+                  crossFade: true
+                }
+              });
+
+              // Project 2 Swiper
+              new Swiper('.mySwiper-project2', {
+                loop: true,
+                autoplay: {
+                  delay: 4000,
+                  disableOnInteraction: false,
+                },
+                pagination: { 
+                  el: '.mySwiper-project2 .swiper-pagination', 
+                  clickable: true,
+                  dynamicBullets: true
+                },
+                navigation: { 
+                  nextEl: '.mySwiper-project2 .swiper-button-next', 
+                  prevEl: '.mySwiper-project2 .swiper-button-prev' 
+                },
+                slidesPerView: 1,
+                effect: 'fade',
+                fadeEffect: {
+                  crossFade: true
+                }
+              });
+
+              // Project 3 Swiper
+              new Swiper('.mySwiper-project3', {
+                loop: true,
+                autoplay: {
+                  delay: 4000,
+                  disableOnInteraction: false,
+                },
+                pagination: { 
+                  el: '.mySwiper-project3 .swiper-pagination', 
+                  clickable: true,
+                  dynamicBullets: true
+                },
+                navigation: { 
+                  nextEl: '.mySwiper-project3 .swiper-button-next', 
+                  prevEl: '.mySwiper-project3 .swiper-button-prev' 
+                },
+                slidesPerView: 1,
+                effect: 'fade',
+                fadeEffect: {
+                  crossFade: true
+                }
+              });
+
+              // Project 4 Swiper
+              new Swiper('.mySwiper-project4', {
+                loop: true,
+                autoplay: {
+                  delay: 4000,
+                  disableOnInteraction: false,
+                },
+                pagination: { 
+                  el: '.mySwiper-project4 .swiper-pagination', 
+                  clickable: true,
+                  dynamicBullets: true
+                },
+                navigation: { 
+                  nextEl: '.mySwiper-project4 .swiper-button-next', 
+                  prevEl: '.mySwiper-project4 .swiper-button-prev' 
+                },
+                slidesPerView: 1,
+                effect: 'fade',
+                fadeEffect: {
+                  crossFade: true
+                }
+              });
+
+              // Project 5 Swiper
+              new Swiper('.mySwiper-project5', {
+                loop: true,
+                autoplay: {
+                  delay: 4000,
+                  disableOnInteraction: false,
+                },
+                pagination: { 
+                  el: '.mySwiper-project5 .swiper-pagination', 
+                  clickable: true,
+                  dynamicBullets: true
+                },
+                navigation: { 
+                  nextEl: '.mySwiper-project5 .swiper-button-next', 
+                  prevEl: '.mySwiper-project5 .swiper-button-prev' 
+                },
+                slidesPerView: 1,
+                effect: 'fade',
+                fadeEffect: {
+                  crossFade: true
+                }
+              });
+            }
+          }
+
+          // Initialize projects on load
+          initializeProjects();
+
+          // Intersection Observer for scroll animations
+          const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+          };
+
+          const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+              if (entry.isIntersecting) {
+                entry.target.style.opacity = '1';
+                entry.target.style.transform = 'translateY(0)';
+              }
+            });
+          }, observerOptions);
+
+          // Observe portfolio items
+          items.forEach(item => {
+            observer.observe(item);
+          });
+
+          // Initialize everything when DOM is ready
+          document.addEventListener('DOMContentLoaded', function() {
+            // Initialize AOS with enhanced settings
+            if (window.AOS) { 
+              AOS.init({
+                once: true, 
+                duration: 1000, 
+                easing: 'ease-out-cubic',
+                offset: 50,
+                delay: 100
+              }); 
+            }
+            
+            // Initialize Swipers
+            initProjectSwipers();
+            
+            // Enhanced portfolio item animations
+            items.forEach((item, index) => {
+              item.classList.add('portfolio-item');
+              item.style.opacity = '0';
+              item.style.transform = 'translateY(50px)';
+              item.style.transition = 'all 0.8s cubic-bezier(0.4, 0, 0.2, 1)';
+              
+              // Staggered animation with intersection observer
+              const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                  if (entry.isIntersecting) {
+              setTimeout(() => {
+                      entry.target.style.opacity = '1';
+                      entry.target.style.transform = 'translateY(0)';
+                      entry.target.classList.add('loaded');
+                    }, index * 150);
+                    observer.unobserve(entry.target);
+                  }
+                });
+              }, { threshold: 0.1 });
+              
+              observer.observe(item);
+            });
+
+            // Enhanced skill bar animations
+            const skillBars = document.querySelectorAll('.skill-progress');
+            skillBars.forEach((bar, index) => {
+              const width = bar.getAttribute('data-width');
+              bar.style.setProperty('--skill-width', width + '%');
+              
+              const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                  if (entry.isIntersecting) {
+                    setTimeout(() => {
+                      entry.target.style.width = width + '%';
+                    }, index * 200);
+                    observer.unobserve(entry.target);
+                  }
+                });
+              }, { threshold: 0.5 });
+              
+              observer.observe(bar);
+            });
+
+            // Enhanced service card animations
+            const serviceItems = document.querySelectorAll('.service-item');
+            serviceItems.forEach((item, index) => {
+              const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                  if (entry.isIntersecting) {
+                    setTimeout(() => {
+                      entry.target.style.opacity = '1';
+                      entry.target.style.transform = 'translateY(0)';
+              }, index * 100);
+                    observer.unobserve(entry.target);
+                  }
+                });
+              }, { threshold: 0.1 });
+              
+              observer.observe(item);
+            });
+
+            // Enhanced contact form animations
+            const contactInputs = document.querySelectorAll('.contact-input');
+            contactInputs.forEach(input => {
+              input.addEventListener('focus', function() {
+                this.parentElement.classList.add('focused');
+              });
+              
+              input.addEventListener('blur', function() {
+                if (!this.value) {
+                  this.parentElement.classList.remove('focused');
+                }
+              });
+            });
+
+            // Enhanced section animations for all sections
+            const sectionDescriptions = document.querySelectorAll('.hero-main-description, .about-main-description, .section-main-description');
+            sectionDescriptions.forEach((description, index) => {
+              // Add smooth reveal animation to description
+              description.style.opacity = '0';
+              description.style.transform = 'translateY(30px)';
+              
+              setTimeout(() => {
+                description.style.transition = 'all 1.2s ease-out';
+                description.style.opacity = '1';
+                description.style.transform = 'translateY(0)';
+              }, 1000 + (index * 200));
+            });
+
+            // Add intersection observer for all sections
+            const allSections = document.querySelectorAll('#about, #skills, #resume, #services, #portfolio, #contact');
+            allSections.forEach(section => {
+              const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                  if (entry.isIntersecting) {
+                    // Trigger floating elements animation
+                    const floatingElements = entry.target.querySelectorAll('.about-description-container, .section-description-container');
+                    floatingElements.forEach(container => {
+                      container.style.animationPlayState = 'running';
+                    });
+                  }
+                });
+              }, { threshold: 0.3 });
+              
+              observer.observe(section);
+            });
+
+            // Add hover effects to highlight elements
+            const highlightElements = document.querySelectorAll('.highlight-text, .highlight-tech, .highlight-number');
+            highlightElements.forEach(el => {
+              el.addEventListener('mouseenter', function() {
+                this.style.transform = 'scale(1.05)';
+                this.style.transition = 'transform 0.3s ease';
+              });
+              
+              el.addEventListener('mouseleave', function() {
+                this.style.transform = 'scale(1)';
+              });
+            });
+          });
+
+          // Handle modal events
+          document.querySelectorAll('[data-bs-toggle="modal"]').forEach(trigger => {
+            trigger.addEventListener('click', function() {
+              const targetModal = this.getAttribute('data-bs-target');
+              const modal = document.querySelector(targetModal);
+              
+              if (modal) {
+                // Pause autoplay when modal opens
+                const swiper = modal.querySelector('.swiper');
+                if (swiper && swiper.swiper) {
+                  swiper.swiper.autoplay.stop();
+                }
+              }
+            });
+          });
+
+          // Resume autoplay when modal closes
+          document.querySelectorAll('.modal').forEach(modal => {
+            modal.addEventListener('hidden.bs.modal', function() {
+              const swiper = this.querySelector('.swiper');
+              if (swiper && swiper.swiper) {
+                swiper.swiper.autoplay.start();
+              }
+            });
+          });
+
+        })();
+      </script>
+
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2 class="section-main-title">Contact</h2>
+        <div class="section-description-container">
+          <p class="section-main-description">
+            Ready to bring your <span class="highlight-text">ideas to life</span>? Let's discuss your <span class="highlight-tech">project</span> and create something <span class="highlight-text">amazing together</span>. I'm here to help you build the <span class="highlight-text">perfect solution</span> for your <span class="highlight-tech">business needs</span>.
+          </p>
+        </div>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4">
+            <div class="info-item d-flex contact-info-card" data-aos="fade-up" data-aos-delay="200">
+              <div class="contact-icon address-icon">
+                <i class="bi bi-geo-alt"></i>
+              </div>
+              <div class="contact-content">
+                <h3>Address</h3>
+                <p>Rahim Yar Khan, Punjab, Pakistan</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex contact-info-card" data-aos="fade-up" data-aos-delay="300">
+              <div class="contact-icon phone-icon">
+                <i class="bi bi-telephone"></i>
+              </div>
+              <div class="contact-content">
+                <h3>Call Us</h3>
+                <p>+923067648159</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex contact-info-card" data-aos="fade-up" data-aos-delay="400">
+              <div class="contact-icon email-icon">
+                <i class="bi bi-envelope"></i>
+              </div>
+              <div class="contact-content">
+                <h3>Email Us</h3>
+                <p>jahanzaibryk2020@gmail.com</p>
+              </div>
+            </div><!-- End Info Item -->
+
+          </div>
+
+          <div class="col-lg-8">
+            <form action="forms/contact.php" method="post" class="php-email-form contact-form" data-aos="fade-up"
+              data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="text" name="name" class="form-control contact-input" placeholder="Your Name" required="">
+                    <div class="form-underline"></div>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="email" class="form-control contact-input" name="email" placeholder="Your Email" required="">
+                    <div class="form-underline"></div>
+                  </div>
+                </div>
+
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <input type="text" class="form-control contact-input" name="subject" placeholder="Subject" required="">
+                    <div class="form-underline"></div>
+                  </div>
+                </div>
+
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <textarea class="form-control contact-input" name="message" rows="6" placeholder="Message" required=""></textarea>
+                    <div class="form-underline"></div>
+                  </div>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit" class="contact-submit-btn">
+                    <span>Send Message</span>
+                    <i class="bi bi-send"></i>
+                  </button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+    <div class="container">
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://www.linkedin.com/in/jahanzaib-zafar-814ab4296?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/jhanzaibgithub"><i class="bi bi-github"></i></a>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <span>Copyright</span> <strong class="px-1 sitename">Jahanzaib Zafar</strong> <span>All Rights Reserved</span>
+        </div>
+        <div class="credits">
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
