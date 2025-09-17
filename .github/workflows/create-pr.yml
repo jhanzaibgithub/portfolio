@@ -4,7 +4,6 @@ name: Auto Create Pull Request
 on:
   push:
     branches:
-      - jahanzaib_dev   # whenever you push to this branch
 
 jobs:
   create-pr:
