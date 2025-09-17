@@ -1,0 +1,24 @@
+name: Auto Create Pull Request
+
+on:
+  push:
+    branches:
+      - jahanzaib_dev # whenever you push to this branch
+
+jobs:
+  create-pr:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Auto PR from jahanzaib_dev"
+          title: "Auto PR: Merge jahanzaib_dev into main"
+          body: |
+            This PR was automatically created by GitHub Actions.
+          branch: jahanzaib_dev
+          base: main
