@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(magick --version 2>/dev/null || echo \"no-imagemagick\")",
+      "Bash(npx --version 2>/dev/null)",
+      "Bash(cd \"D:/My data/Portfolio/My Portfolio\" && npx --yes sharp-cli --input assets/img/favicon.svg --output assets/img/apple-touch-icon.png resize 180 180)"
+    ]
+  }
+}
