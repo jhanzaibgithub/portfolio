@@ -8,16 +8,18 @@ on:
 jobs:
   create-pr:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          branch: jahanzaib_dev
           base: main
-          head: jahanzaib_dev
-          title: "Auto PR: Merge jahanzaib_dev into main"
-          body: |
-            This PR was automatically created by GitHub Actions.
+          title: "Auto PR from jahanzaib_dev"
+          body: "This PR is created automatically"
