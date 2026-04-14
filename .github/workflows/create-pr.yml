@@ -1,9 +1,9 @@
-
 name: Auto Create Pull Request
 
 on:
   push:
     branches:
+      - jahanzaib_dev
 
 jobs:
   create-pr:
@@ -16,9 +16,8 @@ jobs:
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "Auto PR from jahanzaib_dev"
+          base: main
+          head: jahanzaib_dev
           title: "Auto PR: Merge jahanzaib_dev into main"
           body: |
             This PR was automatically created by GitHub Actions.
-          branch: jahanzaib_dev
-          base: main
